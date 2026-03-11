@@ -1,0 +1,77 @@
+/* Page background and basic text style */
+body {
+    background: #5a0a2c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header area */
+header {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+/* Decorative divider image */
+.divider {
+    width: 300px;
+}
+
+/* Shopping cart icon position */
+.cart {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+/* Page heading */
+h1 {
+    text-align: center;
+}
+
+/* Gallery layout using flexbox */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Each photo card */
+.photo {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+/* Photo styling */
+.photo img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Caption below photos */
+.caption {
+    background: #35757d;
+    color: #000000;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Add to basket button */
+button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+    padding: 20px;
+}
+
+/* Navigation list style */
+footer ul {
+    list-style: disc;
+}
